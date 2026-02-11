@@ -110,7 +110,7 @@ const AntigravityGallery = () => {
                             className="text-sm md:text-lg text-[#880E4F] font-semibold leading-tight"
                             style={{ fontFamily: "'Quicksand', sans-serif" }}
                         >
-                            "Te dedico este poema mi amor ya que representa el poder del amor que siento por ti, ¿te gustaría ser mi San Valentín? :3"
+                            Te dedico este poema mi amor ya que representa el poder del amor que siento por ti, ¿te gustaría ser mi San Valentín? :3
                         </p>
                     </div>
                 </div>
