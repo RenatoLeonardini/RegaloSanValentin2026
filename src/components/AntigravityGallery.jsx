@@ -2,17 +2,17 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
 
 const IMAGES = [
-    "/assets/photo1.jpg",
-    "/assets/photo2.jpg",
-    "/assets/photo3.jpg",
-    "/assets/photo4.jpg",
-    "/assets/photo5.jpg",
-    "/assets/photo6.jpg",
-    "/assets/photo7.jpg",
-    "/assets/photo9.jpg",
-    "/assets/photo10.jpg",
-    "/assets/photo11.jpg",
-];
+    "photo1.jpg",
+    "photo2.jpg",
+    "photo3.jpg",
+    "photo4.jpg",
+    "photo5.jpg",
+    "photo6.jpg",
+    "photo7.jpg",
+    "photo9.jpg",
+    "photo10.jpg",
+    "photo11.jpg",
+].map(name => `${import.meta.env.BASE_URL}assets/${name}`);
 
 // Symmetrical Layout Configuration (4-2-4)
 const POSITIONS = [
