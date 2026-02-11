@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffe4e1;
+  /* Light pink background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  /* Heart Pattern Background */
+  background-color: #ffe4e1;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 40.2l-1.8-1.6c-6.4-5.8-10.6-9.6-10.6-14.2 0-3.8 3-6.8 6.8-6.8 2.1 0 4.2 1 5.6 2.6 1.4-1.6 3.5-2.6 5.6-2.6 3.8 0 6.8 3 6.8 6.8 0 4.6-4.2 8.4-10.6 14.2L30 40.2z' fill='%23ff6b6b' fill-opacity='0.4' transform='scale(0.5) translate(30, 30)' /%3E%3C/svg%3E");
+  background-size: 60px 60px;
+}
+
+/* Custom Scrollbar Hiding */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
