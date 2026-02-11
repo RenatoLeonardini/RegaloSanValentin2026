@@ -25,10 +25,10 @@ const POSITIONS = [
     { top: 45, left: 15 },
     { top: 45, left: 85 },
     // Bottom Row (4 images)
-    { top: 73, left: 20 },
-    { top: 73, left: 40 },
-    { top: 73, left: 60 },
-    { top: 73, left: 80 },
+    { top: 82, left: 20 },
+    { top: 82, left: 40 },
+    { top: 82, left: 60 },
+    { top: 82, left: 80 },
 ];
 
 const ITEMS = IMAGES.map((src, i) => {
