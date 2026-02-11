@@ -17,10 +17,10 @@ const IMAGES = [
 // Symmetrical Layout Configuration (4-2-4)
 const POSITIONS = [
     // Top Row (4 images)
-    { top: 17, left: 20 },
-    { top: 17, left: 40 },
-    { top: 17, left: 60 },
-    { top: 17, left: 80 },
+    { top: 10, left: 20 },
+    { top: 10, left: 40 },
+    { top: 10, left: 60 },
+    { top: 10, left: 80 },
     // Middle Row (2 images flanking center)
     { top: 45, left: 15 },
     { top: 45, left: 85 },
